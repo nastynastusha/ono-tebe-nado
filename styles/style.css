@@ -71,12 +71,12 @@ a.header__link {
 }
 .header__address-text {
   font-family: Raleway;
-  font-weight: 400; 
-  font-size: 18px; 
+  font-weight: 400;
+  font-size: 18px;
   line-height: 24.3px;
-  color: #000; 
-  margin: 0; 
-  margin-top: 20px; 
+  color: #000;
+  margin: 0;
+  margin-top: 20px;
 }
 /* Секция cover */
 .cover {
