@@ -283,12 +283,13 @@
   gap: 25px;
   width: 1100px;
   margin: 0 auto;
-  padding: 0px 24px;
+  padding: 0px 0px;
 }
 
 /* Левая колонка с логотипом */
 .about__column:first-child {
   display: flex;
+  align-items: start;
   justify-content: start;
 }
 
@@ -300,6 +301,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-left: 50px;
 }
 
 .about__logo-image {
@@ -337,7 +339,7 @@
   align-items: start;
   width: 1100px;
   margin: 0 auto;
-  padding: 160px 50px 60px;
+  padding: 160px 50px 70px;
 }
 
 /* Адрес футтер*/
