@@ -10,7 +10,7 @@
   padding: 92px 50px;
   display: grid;
   grid-template-columns: 2fr 1fr 2fr;
-  align-items: center;
+  align-items: start;
   font-size: 18px;
   line-height: normal;
 }
@@ -113,12 +113,13 @@
 
 .aligned-text_center {
   text-align: center;
-  margin: 20px 0;
+  margin: 19px 0;
+  margin-left: 50px;
 }
 
 .aligned-text_right {
   text-align: right;
-  margin-left: 380px;
+  margin-left: 620px;
 }
 
 /* Блок с описанием и кнопкой */
@@ -127,7 +128,7 @@
   z-index: 2;
   width: 1000px;
   height: 51px;
-  margin-top: 115px;
+  margin-top: 110px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -267,7 +268,7 @@
 .lots__look-more-link {
   display: inline-block;
   margin-top: 30px;
-  margin-left: 40px;
+  margin-left: 64px;
   font-family: Raleway;
   font-size: 20px;
   color: #000;
