@@ -164,7 +164,7 @@
 .lots {
   width: 1100px;
   margin: 0 auto;
-  padding: 181px 0px;
+  padding: 183px 0px;
 }
 
 .lots__heading {
@@ -172,7 +172,7 @@
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
-  margin-bottom: 27px;
+  margin-bottom: 30px;
   margin-left: 64px;
 }
 
@@ -267,7 +267,7 @@
 /* Ссылка "посмотреть больше" */
 .lots__look-more-link {
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 25px;
   margin-left: 64px;
   font-family: Raleway;
   font-size: 20px;
@@ -289,7 +289,7 @@
 /* Левая колонка с логотипом */
 .about__column:first-child {
   display: flex;
-  justify-content: center;
+  justify-content: start;
 }
 
 .about__logo {
@@ -308,7 +308,7 @@
 }
 
 .about__column:last-child {
-  padding-top: 180px; 
+  padding-top: 100px; 
 }
 
 .about__title {
@@ -337,7 +337,7 @@
   align-items: start;
   width: 1100px;
   margin: 0 auto;
-  padding: 160px 50px 90px;
+  padding: 160px 50px 60px;
 }
 
 /* Адрес футтер*/
