@@ -114,12 +114,12 @@
 .aligned-text_center {
   text-align: center;
   margin: 19px 0;
-  margin-left: 50px;
+  margin-left: 49px;
 }
 
 .aligned-text_right {
   text-align: right;
-  margin-left: 620px;
+  margin-left: 619px;
 }
 
 /* Блок с описанием и кнопкой */
@@ -128,7 +128,7 @@
   z-index: 2;
   width: 1000px;
   height: 51px;
-  margin-top: 110px;
+  margin-top: 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -164,7 +164,7 @@
 .lots {
   width: 1100px;
   margin: 0 auto;
-  padding: 180px 0px;
+  padding: 181px 0px;
 }
 
 .lots__heading {
@@ -267,7 +267,7 @@
 /* Ссылка "посмотреть больше" */
 .lots__look-more-link {
   display: inline-block;
-  margin-top: 30px;
+  margin-top: 20px;
   margin-left: 64px;
   font-family: Raleway;
   font-size: 20px;
@@ -307,9 +307,8 @@
   height: 114px;
 }
 
-
 .about__column:last-child {
-  padding-top: 100px; 
+  padding-top: 180px; 
 }
 
 .about__title {
@@ -338,7 +337,7 @@
   align-items: start;
   width: 1100px;
   margin: 0 auto;
-  padding: 180px 50px 90px;
+  padding: 160px 50px 90px;
 }
 
 /* Адрес футтер*/
