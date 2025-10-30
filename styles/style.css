@@ -118,7 +118,7 @@
   margin-left: 49px;
 }
 
-.aligned-text_right { /*надо*/ 
+.aligned-text_right { /*надо*/
   text-align: right;
   margin-left: 619px;
 }
@@ -133,7 +133,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 25px; /*добавила отступ слева в 25 */ 
+  padding-left: 25px; /*добавила отступ слева в 25 */
 }
 
 .cover__description-text {
@@ -166,7 +166,7 @@
 .lots {
   width: 1100px;
   margin: 0 auto;
-  padding: 180px 0px; /* уменьшила с 183 до 180 */ 
+  padding: 180px 0px; /* уменьшила с 183 до 180 */
 }
 
 .lots__heading {
@@ -349,12 +349,12 @@
 }
 
 /* Адрес */
-.address {
+.address__footer {
   font-style: normal;
   max-width: 240px;
 }
 
-.address__link {
+.address__footer__link {
   display: block;
   font-family: Raleway;
   font-weight: 400;
