@@ -281,11 +281,18 @@
 
 /* Секция About */
 .about {
-  padding: 100px 0;
   display: grid;
-  grid-template-columns: 240px 1fr;
-  gap: 120px;
-  align-items: start;
+  grid-template-columns: 334px 1fr; /* Левая колонка как карточка, правая - остальное */
+  gap: 25px;
+  width: 1100px;
+  margin: 0 auto;
+  padding: 10px 24px;
+}
+
+/* Левая колонка с логотипом */
+.about__column:first-child {
+  display: flex;
+  justify-content: center;
 }
 
 .about__logo {
@@ -294,40 +301,42 @@
   background-color: #000;
   border-radius: 50%;
   display: flex;
-  justify-content: center;
   align-items: center;
-  margin: 0 auto;
-  margin-top: -100px;
+  justify-content: center;
 }
 
 .about__logo-image {
   width: 148px;
+  height: 114px;
 }
 
-.about__text-content {
-  padding-top: 100px;
+/* Правая колонка с текстом */
+.about__column:last-child {
+  padding-top: 100px; /* Чтобы заголовок был на уровне центра круга */
 }
 
 .about__title {
-  font-family: Raleway, sans-serif;
+  font-family: Raleway;
   font-weight: 700;
   font-size: 40px;
+  line-height: 100%;
   text-transform: uppercase;
-  margin: 0 0 100px;
+  margin-bottom: 100px;
 }
 
 .about__text {
-  display: flex;
-  flex-direction: column;
-  gap: 25px;
-}
-
-.about__paragraph {
-  font-family: Raleway, sans-serif;
+  font-family: Raleway;
   font-weight: 400;
   font-size: 20px;
-  line-height: 1.2;
-  margin: 0;
+  line-height: 24px;
+}
+
+.about__text p:first-child {
+  margin-bottom: 24px; /* Отступ только у первого абзаца */
+}
+
+.about__text p:last-child {
+  margin-bottom: 0; /* Убираем отступ у последнего абзаца */
 }
 /* Футер */
 .footer {
@@ -336,10 +345,10 @@
   align-items: start;
   width: 1100px;
   margin: 0 auto;
-  padding: 160px 50px 75px; /* изменила с 70 на 75 */
+  padding: 200px 50px 50px;
 }
 
-/* Адрес футтер*/
+/* Адрес */
 .address {
   font-style: normal;
   max-width: 240px;
@@ -381,7 +390,7 @@
 }
 
 .footer__menu-list-item {
-  margin-bottom: 1px;
+  margin-bottom: 5px;
 }
 
 .footer__menu-link {
