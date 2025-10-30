@@ -77,7 +77,7 @@
   background-image: url('../images/cover.jpg');
   background-size: cover;
   background-position: center;
-  padding: 164px 45px 50px; /* изменила значение со 165 на 164 и с 50 до 45 */
+  padding: 164px 45px 50px; /* изменила значение со 165 на 164 отступ сверху и с 50 до 45 отступ  */
 }
 
 /* Оверлей */
@@ -107,17 +107,18 @@
   color: #fff;
 }
 
-.aligned-text {
+.aligned-text {  /*оно*/
   display:block;
+  margin-left: 5px /* добавила отступ слева в 5*/
 }
 
-.aligned-text_center {
+.aligned-text_center { /* тебе */
   text-align: center;
   margin: 19px 0;
   margin-left: 49px;
 }
 
-.aligned-text_right {
+.aligned-text_right { /*надо*/ 
   text-align: right;
   margin-left: 619px;
 }
@@ -128,10 +129,11 @@
   z-index: 2;
   width: 1000px;
   height: 51px;
-  margin-top: 100px;
+  margin-top: 105px; /*увеличила с 100 на 105 */
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-left: 25px; /*добавила отступ слева в 25 */ 
 }
 
 .cover__description-text {
@@ -172,7 +174,7 @@
   font-weight: 700;
   font-size: 40px;
   text-transform: uppercase;
-  margin-bottom: 30px;
+  margin-bottom: 25px; /*уменьшила с 30 на 25 */
   margin-left: 64px;
 }
 
@@ -276,10 +278,11 @@
   border-bottom: 1px solid #000;
   padding-bottom: 1px;
 }
+
 .about {
   width: 1052px;
   height: 595px;
-  margin: 0px auto 100px; /*обнулила верхний отступ оставила только нижний 100 */
+  margin: 0px auto 50px;
   display: grid;
   grid-template-columns: 240px 1fr;
   gap: 119px;
@@ -289,6 +292,7 @@
 .about__column--logo {
   display: flex;
   justify-content: center;
+  margin-top: -50px;
 }
 
 .about__logo {
@@ -309,13 +313,16 @@
 .about__column--text {
   width: 693px;
   height: 449px;
-  margin-top: 133px;
+  margin-top: 0; 
+  display: flex;
+  flex-direction: column;
+  gap: 70px; /*отступ снизу*/
 }
 
 .about__title {
   width: 291px;
   height: 47px;
-  margin: 0 0 103px 0;
+  margin: 0; 
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 40px;
@@ -326,6 +333,9 @@
 .about__text {
   width: 693px;
   height: 312px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px; 
 }
 
 .about__paragraph {
@@ -340,7 +350,7 @@
 .about__paragraph--first {
   width: 688px;
   height: 120px;
-  margin-bottom: 24px;
+  margin-bottom: 0;
 }
 /* Футер */
 .footer {
