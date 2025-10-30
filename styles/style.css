@@ -279,20 +279,13 @@
   padding-bottom: 1px;
 }
 
+/* Секция About */
 .about {
-  width: 1052px;
-  height: 595px;
-  margin: 0px auto 50px;
+  padding: 100px 0;
   display: grid;
   grid-template-columns: 240px 1fr;
-  gap: 119px;
-  opacity: 1;
-}
-
-.about__column--logo {
-  display: flex;
-  justify-content: center;
-  margin-top: -50px;
+  gap: 120px;
+  align-items: start;
 }
 
 .about__logo {
@@ -303,54 +296,38 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 auto;
+  margin-top: -100px;
 }
 
 .about__logo-image {
   width: 148px;
-  height: 114px;
 }
 
-.about__column--text {
-  width: 693px;
-  height: 449px;
-  margin-top: 0; 
-  display: flex;
-  flex-direction: column;
-  gap: 70px; /*отступ снизу*/
+.about__text-content {
+  padding-top: 100px;
 }
 
 .about__title {
-  width: 291px;
-  height: 47px;
-  margin: 0; 
-  font-family: 'Raleway', sans-serif;
+  font-family: Raleway, sans-serif;
   font-weight: 700;
   font-size: 40px;
-  line-height: 100%;
   text-transform: uppercase;
+  margin: 0 0 100px;
 }
 
 .about__text {
-  width: 693px;
-  height: 312px;
   display: flex;
   flex-direction: column;
-  gap: 24px; 
+  gap: 25px;
 }
 
 .about__paragraph {
-  width: 100%;
-  margin: 0;
-  font-family: 'Raleway', sans-serif;
+  font-family: Raleway, sans-serif;
   font-weight: 400;
   font-size: 20px;
-  line-height: 24px;
-}
-
-.about__paragraph--first {
-  width: 688px;
-  height: 120px;
-  margin-bottom: 0;
+  line-height: 1.2;
+  margin: 0;
 }
 /* Футер */
 .footer {
